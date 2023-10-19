@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Young Serif', serif;
+   /* background-image:url(./insta.jpg) ; */
+   margin-bottom: 10px;
+}
+
+label,input,a{
+    display: block;
+   margin-bottom: 10px;
+}
+form{
+   
+    background-color: antiquewhite ;
+    width: 30%;
+    border: 2px solid rgb(156, 99, 59);
+    padding: 20px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: darkblue;
+}
+label{
+    font-size: 20px
+}
+input{
+    width: 100%;
+    border-radius: 15%;
+    
+}
+a{
+    text-decoration: none;
+    color: rebeccapurple;
+}
+#new{
+    text-align: center;
+}
+#newq{
+    text-align: center;
+}
+#but{
+    display: flex;
+    justify-content: space-between
+}
+button{
+    width: 35%;
+    height: 35px;
+    border: none;
+    border-radius: 20%;
+    background-color: rgb(226, 226, 128);
+    font-size: medium;
+}
+.fa-solid{
+    color: rgb(0, 68, 255);
+}
